@@ -1,11 +1,16 @@
+/* main.css */
 #count {
-    display: inline;
-    font-weight: bold;
-    margin: 0;
+  font-weight: bold;
+  margin-left: 10px;
 }
+
 #logo {
-    height: 200px;
-    width: 200px;
-    background: url('../assets/holberton-logo.jpg');
-    background-size: 200px 200px;
+  width: 200px;
+  height: 200px;
+  background-image: url('../assets/holberton-logo.jpg');
+  background-size: cover;
+}
+
+button {
+  float: left; /* Ensures button and counter text are aligned horizontally */
 }
