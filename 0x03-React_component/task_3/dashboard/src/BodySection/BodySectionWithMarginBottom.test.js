@@ -1,4 +1,4 @@
-mport React from "react";
+import React from "react";
 import { shallow } from "enzyme";
 import BodySectionWithMarginBottom from "./BodySectionWithMarginBottom";
 import BodySection from "./BodySection";
