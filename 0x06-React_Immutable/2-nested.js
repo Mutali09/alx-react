@@ -1,12 +1,12 @@
-import (fromJS) from 'immutable';
+import { fromJS } from 'immutable';
 
 export default function accessImmutableObject(object, array) {
-	cons immutableObject = fromJS(object);
+	const immutableObject = fromJS(object);
 	return immutableObject.getIn(array);
 }
 
 //example usage
-cons exampleObject = {
+const exampleObject = {
 	name: {
           first: "Guillaume"
           last: "Salva"
